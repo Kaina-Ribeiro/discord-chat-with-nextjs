@@ -5,6 +5,7 @@
     "node": true,
     "browser": true
   },
+  "plugins": ["@emotion"],
   "root": true,
 
   "rules": { "no-unused-vars": "warn" }
