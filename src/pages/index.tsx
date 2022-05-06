@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { ReactElement } from 'react';
 import Layout from '../components/Layout';
 import styled from '@emotion/styled';
+import ServerList from '../components/ServerList';
 
 const Button = styled.button`
   padding: 32px;
@@ -18,12 +19,7 @@ const Button = styled.button`
 const Home = () => {
   return (
     <>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <h1>Title</h1>
-      <Button>Button</Button>
+      <ServerList />
     </>
   );
 };

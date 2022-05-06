@@ -4,6 +4,9 @@ const withTM = require('next-transpile-modules');
 
 const nextConfig = {
   reactStrictMode: true,
+  experimental: {
+    emotion: true,
+  },
 };
 
 module.exports = withPlugins([[withTM], nextConfig]);
