@@ -6,6 +6,7 @@ import Layout from '../components/Layout';
 import ServerList from '../components/ServerList';
 import UserInfo from '../components/UserInfo';
 import ServerName from '../components/ServerName';
+import UserList from '../components/UserList';
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
 
       <ChannelList />
       <UserInfo />
+      <UserList />
     </>
   );
 };
