@@ -4,6 +4,7 @@ import ChannelInfo from '../components/ChannelInfo';
 import ChannelList from '../components/ChannelList';
 import Layout from '../components/Layout';
 import ServerList from '../components/ServerList';
+import UserInfo from '../components/UserInfo';
 import ServerName from '../components/ServerName';
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <ChannelInfo />
 
       <ChannelList />
+      <UserInfo />
     </>
   );
 };
