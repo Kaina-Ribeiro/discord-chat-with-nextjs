@@ -1,3 +1,4 @@
+import ChannelButton from '../ChannelButton';
 import * as S from './styles';
 
 const ChannelList = () => {
@@ -7,6 +8,12 @@ const ChannelList = () => {
         <span>Canais de text </span>
         <S.AddCategoryIcon />
       </S.Category>
+
+      <ChannelButton channelName="chat-livre" />
+      <ChannelButton channelName="trabalho" />
+      <ChannelButton channelName="lolzinho" />
+      <ChannelButton channelName="valorant" />
+      <ChannelButton channelName="csgo" />
     </S.Container>
   );
 };
