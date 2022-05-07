@@ -1,7 +1,5 @@
 import * as S from './styles';
 
-interface IServerNameProps {}
-
 const ServerName = () => {
   return (
     <S.Container>
