@@ -13,10 +13,16 @@ export const Button = styled.button<IServerButtonProps>`
 
   margin-bottom: 8px;
 
-  background: ${(props) => (props.isHome ? 'var(--rocketseat)' : 'var(--primary)')};
+  background: var(--primary);
 
   cursor: pointer;
   position: relative;
+
+  svg {
+    color: rgb(220, 221, 222);
+    height: 24px;
+    width: 24px;
+  }
 
   & ::before {
     width: 9px;

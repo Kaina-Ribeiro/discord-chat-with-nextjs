@@ -46,7 +46,7 @@ export const GlobalStyles = css`
     --symbol: #74777a;
 
     --notification: #f84a4b;
-    --discord: #6e86d6;
+    --discord: #5865f2;
     --mention-detail: #f9a839;
     --mention-message: #413f3f;
 

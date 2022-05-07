@@ -1,6 +1,8 @@
 import * as S from './styles';
-import Logo from '../../assets/Logo.svg';
 import Image from 'next/image';
+
+import { Discord } from '@emotion-icons/simple-icons/Discord';
+import Logo from '../../assets/Logo.svg';
 
 export interface IServerButtonProps {
   isHome?: boolean;
@@ -18,7 +20,7 @@ const ServerButton = ({ isHome, selected, hasNotifications, mentions }: IServerB
         hasNotifications={hasNotifications}
         mentions={mentions}
       >
-        {isHome && <Image height={24} width={24} src={Logo} alt="Server logo" />}
+        {isHome && <Discord />}
       </S.Button>
     </>
   );
