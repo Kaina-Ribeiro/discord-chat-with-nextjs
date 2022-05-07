@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { ReactElement } from 'react';
 import ChannelInfo from '../components/ChannelInfo';
+import ChannelList from '../components/ChannelList';
 import Layout from '../components/Layout';
 import ServerList from '../components/ServerList';
 import ServerName from '../components/ServerName';
@@ -11,6 +12,8 @@ const Home = () => {
       <ServerList />
       <ServerName />
       <ChannelInfo />
+
+      <ChannelList />
     </>
   );
 };
